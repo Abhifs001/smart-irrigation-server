@@ -110,4 +110,4 @@ if __name__ == "__main__":
     load_saved_artifacts()
     print(getMoisture('maize', 192, 26, 50, 101, 2.17))
     
-    app.run(host='0.0.0.0',port=5000, debug=True)
+    app.run(host='0.0.0.0',port=8080)
